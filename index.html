@@ -107,8 +107,8 @@
 
 	<script>
 		let luncherlist = [];
-		let getLaunch = () => {
-			var $title = $('#main-title');
+		let getLaunch = function () {
+			let title = $('#main-title');
 			title.fadeOut();
 			let randomNum = Math.floor(Math.random() * luncherlist.length);
 			let eatName = luncherlist[randomNum].name;
