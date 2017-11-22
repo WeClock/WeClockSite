@@ -1,0 +1,58 @@
+{
+    "luncher": [{
+            "name": "嘿小麵",
+            "openday": "1,3,4,5",
+            "weights": 1,
+            "level": 2,
+            "type": "麵"
+        },
+        {
+            "name": "白米",
+            "openday": "1,2,3,4,5",
+            "weights": 1,
+            "level": 1,
+            "type": "輕,麵"
+        },
+        {
+            "name": "老闆娘",
+            "openday": "1,2,3,4,5",
+            "weights": 1,
+            "level": 1,
+            "type": "飯,麵"
+        },
+        {
+            "name": "四海游龍",
+            "openday": "1,2,3,4,5",
+            "weights": 1,
+            "level": 1,
+            "type": "餃,麵"
+        },
+        {
+            "name": "阿助師",
+            "openday": "1,2,3,4,5",
+            "weights": 1,
+            "level": 1,
+            "type": "飯"
+        },
+        {
+            "name": "老先覺",
+            "openday": "1,2,3,4,5",
+            "weights": 1,
+            "level": 2,
+            "type": "鍋"
+        },
+        {
+            "name": "火雞肉飯",
+            "openday": "1,2,3,4,5",
+            "weights": 1,
+            "level": 1,
+            "type": "飯"
+        },
+        {
+            "name": "青秀",
+            "openday": "1,2,3,4,5",
+            "weights": 1,
+            "type": "飯"
+        }
+    ]
+}
