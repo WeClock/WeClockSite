@@ -50,8 +50,11 @@
 		}
 
 		@keyframes typing {
-			from { width: 0 }
+			from {
+				width: 0
+			}
 		}
+
 		h1#main-title {
 			width: 28em;
 			overflow: hidden;
@@ -114,22 +117,19 @@
 		</div>
 	</header>
 	<!-- Get lunch script -->
-	
-	<script>
-		(($) => {			
-			'use strict'
-			let luncherlist = [];
-			let getLaunch = () => {
-				let randomNum = 1 + Math.floor(Math.random() * luncherlist.length);
-				let eatName = lunchlist[randomNum].name;
-				$('#main-title').html('<strong>吃!  </strong>' + eatName);
-			}
 
-			$.get("/WeClockSite/lunchStorage.json", function (data) {
-				luncherlist = data.lunchers;
-				$('#btn-getlunch').removeAttr('disabled');
-			});
-		})(jQuery)
+	<script>
+		let luncherlist = [];
+		let getLaunch = () => {
+			let randomNum = 1 + Math.floor(Math.random() * luncherlist.length);
+			let eatName = lunchlist[randomNum].name;
+			$('#main-title').html('<strong>吃!  </strong>' + eatName);
+		}
+
+		$.get("/WeClockSite/lunchStorage.json", function (data) {
+			luncherlist = data.lunchers;
+			$('#btn-getlunch').removeAttr('disabled');
+		});
 	</script>
 
 	<section class="bg-primary" id="about">
